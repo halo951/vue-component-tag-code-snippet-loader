@@ -1,0 +1,34 @@
+{
+    "name": "vue-tag-code-snippet-loader",
+    "version": "1.0.1",
+    "description": "vue组件标签代码片段生成(webpack loader)",
+    "keywords": [
+        "vue",
+        "auto tag description",
+        "code-snippet"
+    ],
+    "main": "./dist/index.js",
+    "author": "Halo",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/a951055/vue-component-tag-code-snippet-loader.git"
+    },
+    "dependencies": {
+        "@babel/core": "^7.12.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+        "@babel/preset-env": "^7.12.0",
+        "@types/is-glob": "^4.0.1",
+        "@types/micromatch": "^4.0.1",
+        "@types/node": "^14.11.8",
+        "@types/webpack-env": "^1.15.3",
+        "is-glob": "^4.0.1",
+        "loader-utils": "^2.0.0",
+        "micromatch": "^4.0.2",
+        "webpack": "4.44.2"
+    }
+}

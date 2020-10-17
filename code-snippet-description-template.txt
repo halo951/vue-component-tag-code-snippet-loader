@@ -1,0 +1,31 @@
+#component-tag
+
+> 插槽: #has-slot
+> 路径: #relative-path
+> 描述: #description
+
+#props
+
+```
+(此部分内容仅做展示, 实际生成格式由代码控制)
+
++----------------------------+
++ xxx | xxxx  | xxxx | xxxx  +
++----------------------------+
++ xxx | xxxx  | xxxx | xxxx  +
++ xxx | xxxx  | xxxx | xxxx  +
++ xxx | xxxx  | xxxx | xxxx  +
++----------------------------+
+
+  '+-------------- prop --------------+',
+  '+   prop   |   type    |  default  +',
+  '+----------------------------------+',
+  '+----------------------------------+'
+```
+-----------> evnets <-----------
+[事件| 描述]
+#events
+```
+  (emit event list)
+  @on-click {string} | 这是一个xxx的事件  
+```
