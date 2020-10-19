@@ -4,7 +4,7 @@
 
 ## usage
 
--   安装: yarn add vue-component-tag-code-snippet-loader
+-   安装: `yarn add vue-component-tag-code-snippet-loader`
 -   在 vue.config.js 中,添加 loader 规则
 -   具体配置项在 [file](./lib/index.ts)
 
