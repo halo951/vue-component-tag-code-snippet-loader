@@ -1,6 +1,6 @@
 {
-    "name": "vue-tag-code-snippet-loader",
-    "version": "1.0.1",
+    "name": "vue-component-tag-code-snippet-loader",
+    "version": "1.0.2",
     "description": "vue组件标签代码片段生成(webpack loader)",
     "keywords": [
         "vue",
@@ -11,8 +11,8 @@
     "author": "Halo",
     "license": "MIT",
     "scripts": {
-      "build": "tsc",
-      "dev": "tsc --watch"
+        "build": "tsc",
+        "dev": "tsc --watch"
     },
     "repository": {
         "type": "git",
